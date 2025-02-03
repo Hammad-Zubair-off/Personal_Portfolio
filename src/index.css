@@ -1,0 +1,64 @@
+
+
+:root{
+  overflow-x: hidden;
+  font-family: "Montserrat", serif;
+  box-sizing: border-box;
+  --deep: #1f242b;
+  --neon: #3b0952;
+  --pure: #ffffff;
+}
+/* index.css or global styles */
+body {
+  background-color: #1a1f24; /* Your desired background color */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* index.css or App.css */
+/* LoadingSpinner.css or your relevant CSS file */
+.spinner-border {
+  border-radius: 50%;
+  border-right-color: transparent;
+  animation: spin 0.1s linear infinite; /* Reduced animation duration to 0.1s */
+}
+
+/* Fancy Custom Scrollbar - Global */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2ad882 #1f242b;
+}
+
+/* For Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1f242b;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #2ad882, #25c26e);
+  border-radius: 10px;
+  border: 2px solid #1f242b;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Glow Effect on Hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #2ad882, #36e89d);
+  box-shadow: 0 0 10px #2ad882;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
