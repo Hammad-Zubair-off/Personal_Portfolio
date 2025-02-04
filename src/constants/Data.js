@@ -5,6 +5,7 @@ import LiamBenjamin from "../assets/testimonial/LiamBenjamin.png";
 import ElijahJames from "../assets/testimonial/ElijahJames.png";
 import EmmaGrace from "../assets/testimonial/EmmaGrace.png";
 import lisaBrown from "../assets/testimonial/lisaBrown.png";
+import AboutProfilePic from '../assets/AboutProfilePic.png';
 import Pic from '../assets/ProfilePic.png';
 import HammadCV from '../assets/HammadCV.pdf';
 
@@ -105,7 +106,7 @@ export const aboutData = {
   title: "Front-End Developer",
   description:
     "Hi, I’m Hammad! A front-end developer skilled in React, JavaScript, and modern frameworks, with hands-on experience in transforming Figma designs into responsive, high-performance websites. I focus on writing clean, maintainable code and crafting seamless user experiences that work beautifully across all devices. Let’s build something amazing together!",
-  image: Pic, // Path to your profile picture
+  image: AboutProfilePic, // Path to your profile picture
   buttons: [
     { label: "Hire Me", link: "/Contact", className: "bg-[#2ad882] text-black" }, // Updated link to Contact page
     {
