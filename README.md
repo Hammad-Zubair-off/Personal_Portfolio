@@ -113,7 +113,7 @@ Hammad-Portfolio/
 
 ## 📬 Contact Me
 
-📧 Email: [[your-email@example.com](mailto:hammadzubairofficial@gmail.com)]  
+📧 Email: [[hammadzubairofficial@gmail.com](mailto:hammadzubairofficial@gmail.com)]  
 🔗 LinkedIn: [linkedin.com/in/hammad-zubair-off](https://www.linkedin.com/in/hammad-zubair-off/)  
 🐙 GitHub: [github.com/Hammad-Zubair-off](https://github.com/Hammad-Zubair-off)  
 
