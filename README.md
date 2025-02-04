@@ -6,7 +6,7 @@ Welcome to my personal **Portfolio Website**, where I showcase my skills, projec
 
 ## 📌 Live Demo
 
-**Check out my portfolio live at:** [Coming Soon]
+**Check out my portfolio live at:** [\[Coming Soon\]](https://hammadportfolio-rose.vercel.app/)
 
 ## 📸 Preview
 
