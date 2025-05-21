@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { FaGithub } from "react-icons/fa"; 
+import { FaGithub,FaLink } from "react-icons/fa"; 
 import { projects, testimonials } from "../constants/Data"; // Import data from Data.js
 
 const Project = () => {
@@ -63,6 +63,14 @@ const Project = () => {
                     className="text-white hover:text-[#2ad882] transition-colors duration-300"
                   >
                     <FaGithub className="w-6 h-6" />
+                  </a>
+                 <a
+                    href={project.productionLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-[#2ad882] transition-colors duration-300"
+                  >
+                    <FaLink className="w-6 h-6" />
                   </a>
                 </div>
 
